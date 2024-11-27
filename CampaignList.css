@@ -1,0 +1,66 @@
+.campaign-list {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5; /* Light background for contrast */
+}
+
+.campaign-list__title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center; /* Center title */
+}
+
+.campaign-list__items {
+  list-style: none;
+  padding: 0;
+}
+
+.campaign-list__item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #e3eaf4; /* Light blue for item background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s; /* Smooth transition */
+}
+
+.campaign-list__item:hover {
+  transform: scale(1.02); /* Slightly increase size on hover */
+}
+
+.campaign-list__name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.campaign-list__description {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 0;
+}
+
+.campaign-list__no-campaigns {
+  font-size: 16px;
+  color: #999;
+  text-align: center; /* Center message */
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #007bff; /* Blue on hover */
+  color: #fff; /* White text on hover */
+}

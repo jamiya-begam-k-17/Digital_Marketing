@@ -1,0 +1,75 @@
+/* ContactUs.css */
+
+.contact-container {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-image: url('https://img.freepik.com/premium-vector/abstract-digital-technology-background-with-network-connection-lines_583398-70.jpg');
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-title {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .contact-description {
+    font-size: 1.2em;
+    color: #feffff;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .form-group label {
+    font-size: 1.1em;
+    color: #ffffff;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 1em;
+    color: #495057;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    padding: 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  

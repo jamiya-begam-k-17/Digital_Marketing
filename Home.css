@@ -1,0 +1,91 @@
+/* Home.css */
+
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .hero-section {
+    background-image: url('https://img.freepik.com/premium-vector/abstract-digital-technology-background-with-network-connection-lines_583398-70.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .hero-title {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-description {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .features-section {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #343a40;
+  }
+  
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .feature-item p {
+    font-size: 1.1em;
+    color: #495057;
+  }
+  

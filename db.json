@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "17fe",
+      "email": "jamiya@gmail.com",
+      "password": "jamiya"
+    },
+    {
+      "id": "7ae0",
+      "email": "harshavardhan@gmail.com",
+      "password": "harshavardhan"
+    },
+    {
+      "id": "d3f7",
+      "email": "kirubaharan@gmail.com",
+      "password": "kirubaharan"
+    },
+    {
+      "id": "12ms",
+      "email": "mithun@gmail.com",
+      "password": "mithun"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "2",
+      "name": "Summer Sale",
+      "description": "Campaign to promote summer discounts.",
+      "startDate": "2024-06-15",
+      "endDate": "2024-06-30",
+      "budget": 5000
+    },
+    {
+      "id": "3",
+      "name": "Black Friday Deals",
+      "description": "The biggest sale of the year with exclusive offers.",
+      "startDate": "2024-11-20",
+      "endDate": "2024-11-27",
+      "budget": 10000
+    },
+    {
+      "id": "2639",
+      "name": "irphan",
+      "description": "good sale",
+      "startDate": "275760-03-12",
+      "endDate": "5690-04-23",
+      "budget": "900000000000"
+    }
+  ]
+}
